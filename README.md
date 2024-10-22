@@ -25,3 +25,6 @@ pip install -r requirements.txt
 
 Run the notebooks 'Legal-Reasoning-Auto-Evaluator-Pipeline.ipynb' and 'Legal_Reasoning_Metrics_Calculation.ipynb' sequentially to run first run the auto-evaluator pipeline and then compute the 'Soundness', 'Correctness' and 'Accuracy' metrics as discussed in the paper.
 
+#### Additional Note:
+There are various places in 'Legal-Reasoning-Auto-Evaluator-Pipeline' and 'Legal_Reasoning_Metrics_Calculation' where the paths of input and output files need to be provided for loading and saving of results. OpenAI API key is required to be provided in the appropriate place for the auto-evaluator pipeline to work.
+
