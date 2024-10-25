@@ -25,6 +25,19 @@ pip install -r requirements.txt
 
 Run the notebooks 'Legal-Reasoning-Auto-Evaluator-Pipeline.ipynb' and 'Legal_Reasoning_Metrics_Calculation.ipynb' sequentially to run first run the auto-evaluator pipeline and then compute the 'Soundness', 'Correctness' and 'Accuracy' metrics as discussed in the paper.
 
+### Instructions to run mitigation techniques:
+Download Lllama models from [huggingface](https://huggingface.co/meta-llama).
+Add your data path and the output path.
+
+Run the baseline code as follows.
+
+```python baseline.py```
+
+To run other prompting techniques with error feedbacks, specify the feedback type from ```long```, ```short``` or  ```generic```.
+As an example, you can run plan and solve technique with descriptive error feedbacks as follows.
+
+```python plan-and-solve-w-errors.py --feedback long```
+
 #### Additional Note:
 There are various places in 'Legal-Reasoning-Auto-Evaluator-Pipeline' and 'Legal_Reasoning_Metrics_Calculation' where the paths of input and output files need to be provided for loading and saving of results. OpenAI API key is required to be provided in the appropriate place for the auto-evaluator pipeline to work.
 
