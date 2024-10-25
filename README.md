@@ -2,7 +2,7 @@
 
 ### Instructions to obtain the dataset:
 For obtaining permission to use the 'Civ. Pro.' dataset evaluated in our research paper, please refer and follow the steps as outlined in the following github link:
-[https://github.com/trusthlt/legal-argument-reasoning-task](url)
+[url]([url](https://github.com/trusthlt/legal-argument-reasoning-task))
 
 ### Instructions to run the LLM inferences:
 Please refer to the prompt-format in 'Legal-Reasoning-zero-shot-prompt-for-LLM-inference.py' for zero-shot CoT LLM inference
