@@ -41,3 +41,16 @@ As an example, you can run plan and solve technique with descriptive error feedb
 #### Additional Note:
 There are various places in 'Legal-Reasoning-Auto-Evaluator-Pipeline' and 'Legal_Reasoning_Metrics_Calculation' where the paths of input and output files need to be provided for loading and saving of results. OpenAI API key is required to be provided in the appropriate place for the auto-evaluator pipeline to work.
 
+### Citation:
+Our work can be cited through:
+```
+@misc{mishra2025investigatingshortcomingsllmsstepbystep,
+      title={Investigating the Shortcomings of LLMs in Step-by-Step Legal Reasoning}, 
+      author={Venkatesh Mishra and Bimsara Pathiraja and Mihir Parmar and Sat Chidananda and Jayanth Srinivasa and Gaowen Liu and Ali Payani and Chitta Baral},
+      year={2025},
+      eprint={2502.05675},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.05675}, 
+}
+```
